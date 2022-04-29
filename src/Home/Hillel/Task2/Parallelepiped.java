@@ -12,7 +12,7 @@ public class Parallelepiped {
 
         System.out.printf("Volume of the parallelepiped = %.2f", volume);
         System.out.println();
-        System.out.println("Length = " + length);
+        System.out.printf("Length = %.2f", length);
         System.out.println();
         System.out.printf("Width = " + w);
         System.out.println();
