@@ -14,9 +14,8 @@ public class Parallelepiped {
         System.out.println();
         System.out.printf("Length = %.2f", length);
         System.out.println();
-        System.out.printf("Width = " + w);
-        System.out.println();
-        System.out.printf("Duration = " + d);
+        System.out.println("Width = " + w);
+        System.out.println("Duration = " + d);
     }
 
 }
