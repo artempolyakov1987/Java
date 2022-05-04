@@ -1,4 +1,4 @@
-package Home.Hillel.Task3;
+package homeHillel.task3;
 
 public class Task1 {
     public static void main(String[] args) {

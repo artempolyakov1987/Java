@@ -1,6 +1,5 @@
-package Home.Hillel.Task3;
+package homeHillel.task3;
 
-import java.util.Map;
 import java.util.Scanner;
 
 public class Task3 {
