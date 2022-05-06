@@ -2,17 +2,17 @@ package task4;
 
 public class Zoo {
     public static void main(String[] args) {
-        int beer = 2;
+        int bear = 2;
         int tiger = 5;
         int parrot = 20;
         int elephant = 3;
         int raccoon = 12;
         int porcupine = 29;
-        int count = (int) countAnimals(beer, tiger, parrot, elephant, raccoon);
-        double count1 = countAnimalsNextYear(beer, tiger, parrot, elephant, raccoon);
+        int count = (int) countAnimals(bear, tiger, parrot, elephant, raccoon);
+        double count1 = countAnimalsNextYear(bear, tiger, parrot, elephant, raccoon);
         long count2 = Math.round(count1);
-        double count3 = countAnimalsNextYear6(beer, tiger, parrot, elephant, raccoon, porcupine);
-        long  count4 = Math.round(count3);
+        double count3 = countAnimalsNextYear6(bear, tiger, parrot, elephant, raccoon, porcupine);
+        long count4 = Math.round(count3);
 
         System.out.println("The count of animals in the zoo this year: " + count);
         System.out.println("The count of animals in the zoo next year: " + count2);
