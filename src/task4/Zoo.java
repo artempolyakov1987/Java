@@ -12,7 +12,7 @@ public class Zoo {
         double count1 = countAnimalsNextYear(beer, tiger, parrot, elephant, raccoon);
         long count2 = Math.round(count1);
         double count3 = countAnimalsNextYear6(beer, tiger, parrot, elephant, raccoon, porcupine);
-        long count4 = Math.round(count3);
+        long  count4 = Math.round(count3);
 
         System.out.println("The count of animals in the zoo this year: " + count);
         System.out.println("The count of animals in the zoo next year: " + count2);
