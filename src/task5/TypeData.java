@@ -10,7 +10,7 @@ public class TypeData {
         if (sc.hasNextInt()) {
             int number = sc.nextInt();
             System.out.println("Type int: " + number);
-            positiveOrnegative(number);
+            positiveOrNegative(number);
         } else if (sc.hasNextDouble()){
             double number = sc.nextDouble();
             System.out.printf("Type double  = %.2f", number);
@@ -22,7 +22,7 @@ public class TypeData {
         }else {System.out.println("Sorry, but this is clearly not a number. Restart the program and try again!");
         }
     }
-        private static void positiveOrnegative (int a) {
+        private static void positiveOrNegative(int a) {
             if (a == 0) {
                 System.out.println("Zero value");
             } else if (a > 0) {
