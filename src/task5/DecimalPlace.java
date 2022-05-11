@@ -3,8 +3,8 @@ package task5;
 
 public class DecimalPlace {
     public static void main(String[] args) {
-        double number1= doubleToDecimalPlaces(14.45666, 3);
-        System.out.println("result of decimal:" +number1);
+        double number1= doubleToDecimalPlaces(14.46544, 3);
+        System.out.println("Result of decimal:" +number1);
 
     }
     private static double doubleToDecimalPlaces(double number, int countAfterPoint){
