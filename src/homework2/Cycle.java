@@ -10,5 +10,12 @@ public class Cycle {
             }
         }
         System.out.println("Suma parnyh chisel: " + sum);
+        int miror = 123;
+        while (miror > 0) {
+            System.out.print(miror % 10);
+            miror /= 10;
+
         }
+
+    }
 }
